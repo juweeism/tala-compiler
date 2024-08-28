@@ -19,7 +19,8 @@ executable tala
   hs-source-dirs:      src
   main-is:             Main.hs
   default-language:    Haskell2010
-  other-modules:       Lexer
+  other-modules:       Lexer,
+                       Parser
   build-depends:       base >= 4.7 && < 5,
                        array
   ghc-options:         -Wall
